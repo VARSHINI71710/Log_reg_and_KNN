@@ -10,19 +10,19 @@ Data Loading
 
 Read the dataset (CSV/Excel) using pandas.
 
-Inspect data for missing values and basic statistics.
+  Inspect data for missing values and basic statistics.
 
 Feature Selection
 
-Choose relevant features (X) and target (y).
+  Choose relevant features (X) and target (y).
 
-Separate numerical and categorical features if needed.
+  Separate numerical and categorical features if needed.
 
 Data Splitting
 
-Split dataset into training and test sets using train_test_split.
+  Split dataset into training and test sets using train_test_split.
 
-Typical split: 80% training, 20% testing.
+  Typical split: 80% training, 20% testing.
 
 Feature Scaling
 
@@ -32,85 +32,85 @@ Important for distance-based models (k-NN) and gradient-based models (Logistic R
 
 Model Training
 
-Choose a machine learning algorithm:
+  Choose a machine learning algorithm:
 
-Classification: Logistic Regression, k-NN, Decision Trees, etc.
+  classification: Logistic Regression, k-NN, Decision Trees, etc.
 
-Regression: Linear Regression, k-NN Regression, Ridge/Lasso, etc.
+  Regression: Linear Regression, k-NN Regression, Ridge/Lasso, etc.
 
-Fit the model on training data.
+  Fit the model on training data.
 
 Cross-Validation (Optional)
 
-Use k-fold cross-validation to tune hyperparameters like k in k-NN.
+  Use k-fold cross-validation to tune hyperparameters like k in k-NN.
 
-Evaluate mean performance (accuracy/RMSE) on training data.
+  Evaluate mean performance (accuracy/RMSE) on training data.
 
 Prediction
 
-Predict on test data.
+  Predict on test data.
 
-For classification: predicted labels and probabilities.
+  For classification: predicted labels and probabilities.
 
-For regression: predicted numerical values.
+  For regression: predicted numerical values.
 
-Model Evaluation
+  Model Evaluation
 
 Classification metrics:
 
-Accuracy, Precision, Recall, F1-score, ROC-AUC.
+  Accuracy, Precision, Recall, F1-score, ROC-AUC.
 
-Confusion Matrix and ROC Curve.
+  Confusion Matrix and ROC Curve.
 
-Regression metrics:
+  Regression metrics:
 
-RMSE, R² score, Mean Absolute Error (MAE).
+  RMSE, R² score, Mean Absolute Error (MAE).
 
 Feature Importance
 
-Analyze which features impact predictions the most.
+  Analyze which features impact predictions the most.
 
-For Logistic Regression: check coefficients.
+  For Logistic Regression: check coefficients.
 
-For tree-based models: check feature importances.
+  For tree-based models: check feature importances.
 
 Visualization
 
-Plot confusion matrices, ROC curves, and feature importance for better understanding.
+  Plot confusion matrices, ROC curves, and feature importance for better understanding.
 _______________
 Example Practice Projects
 
 Flowers Classification — k-NN
 
-Dataset: flowers.csv
+  Dataset: flowers.csv
 
-Predict flower species using sepal/petal measurements.
+  Predict flower species using sepal/petal measurements.
 
-Evaluate accuracy and confusion matrix.
+  Evaluate accuracy and confusion matrix.
 
-Find the best k using cross-validation.
+  Find the best k using cross-validation.
 
 Airbnb Price Prediction — k-NN Regression
 
-Dataset: airbnb.csv
+  Dataset: airbnb.csv
 
-Predict rental price using size, distance, rating, reviews.
+  Predict rental price using size, distance, rating, reviews.
 
-Use 5-fold cross-validation to find best k.
+  Use 5-fold cross-validation to find best k.
 
-Evaluate test RMSE and R².
+  Evaluate test RMSE and R².
 
 Loan Default Prediction — Logistic Regression
 
-Dataset: loan_default.csv
+  Dataset: loan_default.csv
 
-Predict whether a customer will default.
+  Predict whether a customer will default.
 
-Scale numeric features and fit logistic regression.
+  Scale numeric features and fit logistic regression.
 
-Report accuracy, precision, recall, F1-score, ROC-AUC.
+  Report accuracy, precision, recall, F1-score, ROC-AUC.
 
-Identify features that most increase default probability.
+  Identify features that most increase default probability.
 ___________________
 Tools & Libraries
 
